@@ -14,6 +14,7 @@ public class LoginTest extends BrowserSetup {
 		loginPg.login(usrName, psWord);
 		boolean result=loginPg.clickLoginButton();
 		Assert.assertTrue(result, "Login failed");
+		System.out.println("Git status check");
 	}
 }
 
